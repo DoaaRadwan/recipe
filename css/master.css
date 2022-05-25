@@ -1,0 +1,290 @@
+body {
+	background: #f2f3ee url('../img/mainbk.jpg') center center no-repeat fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	color: #4b2707;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-size: 14px;
+	font-family: 'Open Sans', "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 30px 24px;
+	background-color: rgba(255, 255, 255, 0.85);;
+}
+
+/* Typography */
+
+h1, h2 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: #d17f38;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 44px;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	padding: 0 0 20px;
+}
+
+h1 em {
+	color: #4b2707;
+	font-style: normal;
+}
+
+h2 {
+	font-size: 34px;
+	text-align: center;
+}
+
+h2 em {
+	color: #4b2707;
+	font-style: normal;
+}
+
+h3 {
+	margin: 0;
+}
+
+p.lead {
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	margin: 10px 0;
+}
+
+p {
+	margin: 0;
+}
+
+a:link {
+	color: #d17f38;
+}
+
+a:visited {
+	color: #d17f38;
+}
+
+a:hover {
+	color: #4b2707;
+}
+
+hr {
+	border: none;
+	height: 33px;
+	width: 333px;
+	margin: 30px auto;
+	background: url('../img/divider.png') center center no-repeat;
+}
+
+/* Header */
+
+header nav {
+	text-align: center;	
+	background-color:burlywood;
+	font-size: 22px;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	line-height: 141px;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+header nav ul li a:hover {
+	color: #4b2707;
+	padding-top: 20px;
+	background: url('../img/tiny-donut.png') top center no-repeat;
+}
+
+header nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header nav ul li#logo a {
+	display: block;
+	width: 150px;
+	height: 150px;
+	background: url('../img/logo2.png') center center no-repeat;
+	background-size: 90%;
+	text-indent: -9999px;
+}
+
+header nav ul li#logo a:hover {
+	padding: 0;
+	background: url('../img/logo2.png') center center no-repeat;
+	background-size: 100%;
+}
+
+header nav ul li#SelectedPage a{
+	color: #4b2707;
+	padding-top: 20px;
+	background: url('../img/tiny-donut.png') top center no-repeat;
+}
+
+a#title{
+	color: #4b2707;
+	text-decoration: none;
+}
+
+article{
+	margin-top: 25px;
+}
+
+table{
+	text-align: center;
+	margin: auto;
+}
+
+table td {
+padding: 5px;
+}
+
+table img{
+	height: 160px;
+	width: 220px;;
+}
+
+time {
+	color: #b75836;
+	font-size: 14px;
+}
+
+/* The Whole Story */
+
+#story-excerpt {
+	font-size: 16px;
+	text-align: center;
+}
+
+/* Recipies */
+
+#feature-image {
+	float: left;
+	margin-top: 5px;
+}
+
+#popular-recipes header time {
+	color: #b75836;
+	font-size: 12px;
+}
+
+#popular-recipes section {
+	padding-left: 20px;
+	margin-left: 300px;
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+#popular-recipes footer {
+	font-size: 12px;
+	margin-left: 300px;
+	padding-left: 20px;
+}
+
+#popular-recipes img {
+	width: 300px;
+	height: 200px;
+}
+
+#single-recipe img {
+	width: 500px;
+	height: 300px;
+	text-align: centre;
+	display: block;
+	margin: auto;
+}
+
+#single-recipe table {
+	width: 100%;
+}
+
+#single-recipe table td {
+	text-align: left;
+	vertical-align: top;
+}
+
+#single-recipe h3 {
+	text-align: left;
+}
+
+#tips h3 {
+	text-align: left;	
+}
+
+#tips section {
+	background: url('../img/tip.png') top left no-repeat;
+	min-height: 61px;
+	width: auto;
+}
+
+#tips section p {
+	margin: 10px 10px 10px 60px;
+	vertical-align: middle;
+}
+
+#Ing {
+	width: 30%;
+}
+
+/* Footer */
+
+footer.main {
+	background: #4b2707 url('../img/bg-tile-brown.gif') top left repeat;
+	color: #f2f3ee;
+	padding: 30px 0;
+}
+
+footer.main a:hover {
+	color: #f2f3ee;
+}
+
+.container2 {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 30px 24px;
+}
+
+#uncopyright, #credits {
+	width: 240px;
+	float: left;
+	padding: 10px 0 10px 50px;
+}
+
+#uncopyright {
+	background: url('../img/icon-recycle.png') center left no-repeat;
+}
+
+#credits {
+	background: url('../img/icon-apple.png') center left no-repeat;
+	float: right;
+	margin-top: 5px;
+}
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
